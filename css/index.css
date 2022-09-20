@@ -1,0 +1,269 @@
+body {
+    background: #41295a;
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    background: linear-gradient(to right, #2F0743, #41295a);
+
+}
+
+.divcon {
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board{
+    background-color: transparent;
+    width: 680px;
+    min-height: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 0;
+}
+
+.blah{
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    float: left;
+    margin: 5px;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid transparent;
+}
+
+.div_border{
+    animation-name: border_light;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes border_light {
+    0%{
+        border: 5px solid orange;
+    }
+
+    50%{
+        border: 5px solid yellow;
+    }
+
+    100%{
+        border: 5px solid orange;
+    }
+}
+
+.none{
+    display: none;
+}
+.blah:nth-child(1n+0) {
+    background-image: url(../img/Cassie-Cage.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(2n+0) {
+    background-image: url(../img/Alien.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(3n+0) {
+    background-image: url(../img/Bo.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    
+}
+
+.blah:nth-child(4n+0) {
+   background-image: url(../img/D-Vorah.jpg);
+   background-repeat: no-repeat;
+   background-size: 150px 150px;
+}
+
+.blah:nth-child(5n+0) {
+    background-image: url(../img/Ermac.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(6n+0) {
+    background-image: url(../img/Erron-Black.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(7n+0) {
+    background-image: url(../img/Ferra-Torr.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(8n+0) {
+    background-image: url(../img/Goro.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(9n+0) {
+    background-image: url(../img/Jacqui-Briggs.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(10n+0) {
+    background-image: url(../img/Jason-Voorhees.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(11n+0) {
+    background-image: url(../img/Johnny-Cage.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(12n+0) {
+    background-image: url(../img/Kano.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(13n+0) {
+    background-image: url(../img/Kenshi.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(14n+0) {
+    background-image: url(../img/Kitana.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(15n+0) {
+    background-image: url(../img/Kotal-Kahn.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(16n+0) {
+    background-image: url(../img/Kung-Jin.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(17n+0) {
+    background-image: url(../img/Kung-Lao.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(18n+0) {
+    background-image: url(../img/Leatherface.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(19n+0) {
+    background-image: url(../img/Liu-Kang.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(20n+0) {
+    background-image: url(../img/Mileena.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(21n+0) {
+    background-image: url(../img/Predator.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(22n+0) {
+    background-image: url(../img/Quan-Chi.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(23n+0) {
+    background-image: url(../img/Raiden.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(24n+0) {
+    background-image: url(../img/Reptile.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(25n+0) {
+    background-image: url(../img/Scorpion.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(26n+0) {
+    background-image: url(../img/Shinnok.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(27n+0) {
+    background-image: url(../img/Sonya-Blade.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(28n+0) {
+    background-image: url(../img/Sub-Zero.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(29n+0) {
+    background-image: url(../img/Takeda.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(30n+0) {
+    background-image: url(../img/Tanya.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(31n+0) {
+    background-image: url(../img/Tremor.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(32n+0) {
+    background-image: url(../img/Triborg.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+
+.blah:nth-child(33n+0) {
+    background-image: url(../img/xJax.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+}
+  /* https://www.myinstants.com/en/index/az/ */
